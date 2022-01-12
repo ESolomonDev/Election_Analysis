@@ -28,12 +28,11 @@ with open(file_to_load) as election_data:
     print(headers)
 
     # Print each row in the CSV file.
-    #for row in file_reader:
-    #    print(row)
-
-
-
-# Using the with statement open the file as a text file.
+    for row in file_reader:
+        print(row)
+    
+# U
+# sing the with statement open the file as a text file.
 #with open(file_to_save, "w") as txt_file:
 #    txt_file.write("Counties in the Election\n-------------------------\n")
     # Write three counties to the file.
