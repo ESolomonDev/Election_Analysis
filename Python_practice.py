@@ -1,4 +1,12 @@
-counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+# Import the datetime class from the datetime module.
+##mport datetime as dt
+# Use the now() attribute on the datetime class to get the present time.
+##now = dt.datetime.now()
+# Print the present time.
+##print("The time right now is ", now)
+
+
+#counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 
 #for county, voters in counties_dict.items():
 #    print(f"{county} county has {voters} registered voters.")
@@ -19,7 +27,12 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
                 {"county":"Denver", "registered_voters": 463353},
                 {"county":"Jefferson", "registered_voters": 432438}]
 
+#for counti in voting_data:
+#    print(f" {voting_data.__getitem__('county')} county has {voting_data.__getitem__('registered_voters')} registered voters")
+
 #for county, voters in voting_data.items():
+
+
 #    print(county, voters)
 #    print(f"{county} county has {voting_data.get(county)} registered voters.")
 
