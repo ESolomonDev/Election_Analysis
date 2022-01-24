@@ -1,6 +1,6 @@
 # Election_Analysis
 ## Project Overview
- An audit for the Colorado Board of Elections
+ An audit for the Colorado Board of Elections the results of the data analysis where written to a .txt file located in the resources folder.
 ## Resources
 - Data Source: election_results.csv
 - Software Python: Python 3.7.9 , Visual Studio Code:1.63.2
